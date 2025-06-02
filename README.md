@@ -62,48 +62,6 @@ cd weather-app
 Install dependencies:
 
 npm install
-# or
-yarn install
-
-Set up API Key:
-
-Obtain a free API key from OpenWeatherMap.
-
-Create a .env file in the root directory of the project.
-
-Add your API key to the .env file:
-
-VITE_OPENWEATHER_API_KEY=YOUR_API_KEY_HERE
-
-(Note: The VITE_ prefix is important for Vite to expose the variable to the client-side code.)
-
-Usage
-To run the application in development mode:
-
-npm run dev
-# or
-yarn dev
-
-This will start the development server, usually at http://localhost:5173. Open your browser and navigate to this URL to view the app.
-
-To build the project for production:
-
-npm run build
-# or
-yarn build
-
-This will create a dist folder with the optimized production build.
-
-Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. Don't forget to give the project a star!
-
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
 
 Push to the Branch (git push origin feature/AmazingFeature)
 
